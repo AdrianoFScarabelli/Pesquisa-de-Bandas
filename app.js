@@ -13,7 +13,7 @@ function pesquisar() {
     let descricao = "";
     let tags = "";
 
-    if(campoPesquisa == ""){
+    if(campoPesquisa == "") {
 
         section.innerHTML = "<p>Nenhuma banda foi encontrada</p>"
 
@@ -48,7 +48,7 @@ function pesquisar() {
 
     }
 
-    if(!resultados){
+    if(!resultados) {
 
         resultados = "<p>Nenhuma banda foi encontrada</p>"
 
